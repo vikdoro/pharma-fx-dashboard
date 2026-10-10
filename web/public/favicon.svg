@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="FX impact dashboard">
+  <rect width="32" height="32" rx="6" fill="#1a1f26"/>
+  <!-- underlying growth -->
+  <rect x="7" y="16" width="5" height="10" rx="1" fill="#1f7a5a"/>
+  <!-- currency effect (negative) -->
+  <rect x="14" y="11" width="5" height="5" rx="1" fill="#a8321f"/>
+  <!-- reported outcome -->
+  <rect x="21" y="11" width="5" height="15" rx="1" fill="#4a7fb0"/>
+</svg>

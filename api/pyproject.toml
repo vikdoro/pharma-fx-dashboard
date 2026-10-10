@@ -1,0 +1,29 @@
+[project]
+name = "api"
+version = "0.1.0"
+description = "GraphQL API serving Sanofi public quarterly sales data for the FX impact dashboard"
+readme = "README.md"
+authors = [
+    { name = "vikdoro", email = "vikdoro@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.143.0",
+    "strawberry-graphql[fastapi]>=0.333.0",
+    "uvicorn>=0.54.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

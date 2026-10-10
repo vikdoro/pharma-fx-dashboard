@@ -1,0 +1,50 @@
+:root {
+  /* Neutral, finance-tool palette */
+  --bg: #f7f8fa;
+  --surface: #ffffff;
+  --surface-sunken: #f1f3f6;
+  --border: #dfe3e8;
+  --border-strong: #c4cad2;
+
+  --text: #1a1f26;
+  --text-muted: #5c6670;
+  --text-subtle: #8a949e;
+
+  /* Semantic: growth / decline / currency effect */
+  --positive: #1f7a5a;
+  --negative: #a8321f;
+  --fx-effect: #2f5d8a;
+  --neutral-series: #6b7682;
+
+  --focus-ring: #2f5d8a;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
