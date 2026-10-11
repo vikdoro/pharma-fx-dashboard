@@ -50,7 +50,7 @@ Same business performance, very different headline.
 Requires **Node 20+** and **Python 3.14+** with [uv](https://docs.astral.sh/uv/).
 
 ```bash
-# API — http://localhost:8000  (serves GraphQL from Phase 1)
+# API — http://localhost:8000/graphql
 cd api
 uv sync
 uv run uvicorn api.main:app --reload
@@ -74,7 +74,9 @@ All sales figures come from Sanofi's official quarterly results press releases.
 Nothing is invented, estimated or rounded to fill a gap — if a figure is not
 published, it is left out and noted in [`api/data/README.md`](api/data/README.md).
 
-Quarters currently covered: **Q1 2025, Q2 2025, Q3 2025, Q1 2026**.
+Quarters currently covered: **Q1 2025, Q2 2025, Q3 2025, Q1 2026** — company
+figures, sales by region, and all 148 product lines from each release's
+appendix, with both CER and reported growth.
 
 | Quarter | Net sales | FX effect | CER sales | CER growth | FX impact | Reported |
 | ------- | --------- | --------- | --------- | ---------- | --------- | -------- |
@@ -82,6 +84,10 @@ Quarters currently covered: **Q1 2025, Q2 2025, Q3 2025, Q1 2026**.
 | Q2 2025 | €9,994m   | −€384m    | €10,378m  | +10.1%     | −4.1pp    | +6.0%    |
 | Q3 2025 | €12,434m  | −€578m    | €13,012m  | +7.0%      | −4.7pp    | +2.3%    |
 | Q1 2026 | €10,509m  | −€733m    | €11,242m  | +13.6%     | −7.4pp    | +6.2%    |
+
+Sanofi also publishes the average exchange rates it applied, for both the
+quarter and its comparative period, so the CER maths uses its own rates rather
+than substituting ECB reference rates.
 
 **Key assumption.** Sanofi publishes FX impact at company level, not per region.
 To attribute currency effects to individual regions, each region is mapped to a
@@ -96,13 +102,13 @@ Live exchange rates come from the [Frankfurter API](https://frankfurter.dev/)
 ## Roadmap
 
 - [x] **Phase 0** — toolchains, strict TypeScript, test setup for both packages
-- [ ] **Phase 1** — sales data model and GraphQL API
+- [x] **Phase 1** — sales data model and GraphQL API
 - [ ] **Phase 2** — frontend data layer (RTK Query, GraphQL + REST)
 - [ ] **Phase 3** — sales overview: reported vs CER growth
 - [ ] **Phase 4** — FX/CER calculation module with unit tests
 - [ ] **Phase 5** — FX impact waterfall (D3)
 - [ ] **Phase 6** — what-if currency scenario sliders
-- [ ] **Phase 7** — drill-down: total → business unit → region → products
+- [ ] **Phase 7** — drill-down: total → therapeutic area → region → products
 - [ ] **Phase 8** — validation against published CER figures
 - [ ] **Phase 9** — CI (lint, typecheck, test)
 - [ ] **Phase 10** — full documentation

@@ -1,0 +1,3923 @@
+{
+  "$comment": "Transcribed by hand from Sanofi's official quarterly results press releases. No figure is invented, estimated or rounded to fill a gap. See api/data/README.md for sources, assumptions and known gaps.",
+  "reportingCurrency": "EUR",
+  "unit": "EUR millions",
+  "companies": [
+    {
+      "id": "sanofi",
+      "name": "Sanofi",
+      "reportingCurrency": "EUR",
+      "segment": "Biopharma",
+      "currencySensitivities": {
+        "basis": "FY2026 guidance, Q1 2026 press release Appendix 7",
+        "sourceUrl": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572_EN.pdf",
+        "entries": [
+          {
+            "currency": "USD",
+            "variation": "+0.05 USD/EUR",
+            "netSalesImpactEurM": -1069
+          },
+          {
+            "currency": "JPY",
+            "variation": "+5 JPY/EUR",
+            "netSalesImpactEurM": -46
+          },
+          {
+            "currency": "CNY",
+            "variation": "+0.2 CNY/EUR",
+            "netSalesImpactEurM": -60
+          },
+          {
+            "currency": "BRL",
+            "variation": "+0.4 BRL/EUR",
+            "netSalesImpactEurM": -44
+          }
+        ]
+      },
+      "currencyExposure": {
+        "basis": "Share of Q1 2026 net sales, Q1 2026 press release Appendix 7",
+        "sourceUrl": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572_EN.pdf",
+        "entries": [
+          {
+            "currency": "USD",
+            "shareOfSalesPct": 51.0
+          },
+          {
+            "currency": "EUR",
+            "shareOfSalesPct": 17.8
+          },
+          {
+            "currency": "CNY",
+            "shareOfSalesPct": 5.9
+          },
+          {
+            "currency": "JPY",
+            "shareOfSalesPct": 2.8
+          },
+          {
+            "currency": "BRL",
+            "shareOfSalesPct": 2.4
+          },
+          {
+            "currency": "CAD",
+            "shareOfSalesPct": 1.4
+          },
+          {
+            "currency": "RUB",
+            "shareOfSalesPct": 1.3
+          },
+          {
+            "currency": "GBP",
+            "shareOfSalesPct": 1.3
+          },
+          {
+            "currency": "TRY",
+            "shareOfSalesPct": 1.2
+          },
+          {
+            "currency": "AUD",
+            "shareOfSalesPct": 1.1
+          },
+          {
+            "currency": "Others",
+            "shareOfSalesPct": 13.8
+          }
+        ]
+      },
+      "quarters": [
+        {
+          "id": "Q1-2025",
+          "label": "Q1 2025",
+          "publishedOn": "2025-04-24",
+          "sourceUrl": "https://www.sanofi.com/assets/dotcom/pressreleases/2025/2025-04-24-05-30-00-3067075-en.pdf",
+          "comparativePeriod": "Q1 2024",
+          "company": {
+            "netSalesEurM": 9895,
+            "fxEffectEurM": 98,
+            "cerSalesEurM": 9797,
+            "cerGrowthPct": 9.7,
+            "fxImpactPp": 1.1,
+            "reportedGrowthPct": 10.8
+          },
+          "regions": [
+            {
+              "region": "United States",
+              "netSalesEurM": 4657,
+              "cerGrowthPct": 15.4,
+              "subsetOf": null
+            },
+            {
+              "region": "Europe",
+              "netSalesEurM": 2043,
+              "cerGrowthPct": 0.5,
+              "subsetOf": null
+            },
+            {
+              "region": "Rest of World",
+              "netSalesEurM": 3195,
+              "cerGrowthPct": 8.4,
+              "subsetOf": null
+            },
+            {
+              "region": "China",
+              "netSalesEurM": 701,
+              "cerGrowthPct": -1.7,
+              "subsetOf": "Rest of World"
+            }
+          ],
+          "averageRates": [
+            {
+              "currency": "USD",
+              "comparativeRate": 1.085,
+              "currentRate": 1.053
+            },
+            {
+              "currency": "JPY",
+              "comparativeRate": 161.152,
+              "currentRate": 160.396
+            },
+            {
+              "currency": "CNY",
+              "comparativeRate": 7.821,
+              "currentRate": 7.666
+            },
+            {
+              "currency": "BRL",
+              "comparativeRate": 5.375,
+              "currentRate": 6.16
+            },
+            {
+              "currency": "RUB",
+              "comparativeRate": 98.637,
+              "currentRate": 98.14
+            }
+          ],
+          "products": [
+            {
+              "name": "Dupixent",
+              "therapeuticArea": "Immunology",
+              "netSalesEurM": 3480,
+              "cerGrowthPct": 20.3,
+              "reportedGrowthPct": 22.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 2476,
+                  "cerGrowthPct": 18.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 459,
+                  "cerGrowthPct": 23.5
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 545,
+                  "cerGrowthPct": 26.5
+                }
+              ]
+            },
+            {
+              "name": "Kevzara",
+              "therapeuticArea": "Immunology",
+              "netSalesEurM": 111,
+              "cerGrowthPct": 25.3,
+              "reportedGrowthPct": 27.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 68,
+                  "cerGrowthPct": 46.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 30,
+                  "cerGrowthPct": 3.4
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 13,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Fabrazyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 262,
+              "cerGrowthPct": 2.4,
+              "reportedGrowthPct": 4.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 133,
+                  "cerGrowthPct": 2.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 65,
+                  "cerGrowthPct": 3.2
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 64,
+                  "cerGrowthPct": 1.6
+                }
+              ]
+            },
+            {
+              "name": "ALTUVIIIO",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 251,
+              "cerGrowthPct": 100.0,
+              "reportedGrowthPct": 105.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 218,
+                  "cerGrowthPct": 83.5
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 33,
+                  "cerGrowthPct": 371.4
+                }
+              ]
+            },
+            {
+              "name": "Nexviazyme/Nexviadyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 195,
+              "cerGrowthPct": 26.3,
+              "reportedGrowthPct": 28.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 99,
+                  "cerGrowthPct": 12.9
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 64,
+                  "cerGrowthPct": 48.8
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 32,
+                  "cerGrowthPct": 33.3
+                }
+              ]
+            },
+            {
+              "name": "Cerezyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 190,
+              "cerGrowthPct": -9.3,
+              "reportedGrowthPct": -11.2,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 47,
+                  "cerGrowthPct": -6.3
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 59,
+                  "cerGrowthPct": -9.2
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 84,
+                  "cerGrowthPct": -10.9
+                }
+              ]
+            },
+            {
+              "name": "Alprolix",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 160,
+              "cerGrowthPct": 20.0,
+              "reportedGrowthPct": 23.1,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 128,
+                  "cerGrowthPct": 13.8
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 32,
+                  "cerGrowthPct": 52.4
+                }
+              ]
+            },
+            {
+              "name": "Myozyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 135,
+              "cerGrowthPct": -29.8,
+              "reportedGrowthPct": -29.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 48,
+                  "cerGrowthPct": -21.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 49,
+                  "cerGrowthPct": -35.5
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 38,
+                  "cerGrowthPct": -30.9
+                }
+              ]
+            },
+            {
+              "name": "Aldurazyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 94,
+              "cerGrowthPct": 13.3,
+              "reportedGrowthPct": 13.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 19,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 21,
+                  "cerGrowthPct": -8.7
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 54,
+                  "cerGrowthPct": 31.0
+                }
+              ]
+            },
+            {
+              "name": "Cerdelga",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 86,
+              "cerGrowthPct": 2.4,
+              "reportedGrowthPct": 3.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 46,
+                  "cerGrowthPct": -2.2
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 35,
+                  "cerGrowthPct": 9.4
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 5,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Eloctate",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 70,
+              "cerGrowthPct": -20.9,
+              "reportedGrowthPct": -18.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 52,
+                  "cerGrowthPct": -17.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 18,
+                  "cerGrowthPct": -29.2
+                }
+              ]
+            },
+            {
+              "name": "Cablivi",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 67,
+              "cerGrowthPct": 11.9,
+              "reportedGrowthPct": 13.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 36,
+                  "cerGrowthPct": 9.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 25,
+                  "cerGrowthPct": 8.7
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 6,
+                  "cerGrowthPct": 50.0
+                }
+              ]
+            },
+            {
+              "name": "Xenpozyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 56,
+              "cerGrowthPct": 60.0,
+              "reportedGrowthPct": 60.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 25,
+                  "cerGrowthPct": 33.3
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 22,
+                  "cerGrowthPct": 83.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 9,
+                  "cerGrowthPct": 100.0
+                }
+              ]
+            },
+            {
+              "name": "Qfitlia",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 0,
+              "cerGrowthPct": null,
+              "reportedGrowthPct": null,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 0,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Aubagio",
+              "therapeuticArea": "Neurology",
+              "netSalesEurM": 65,
+              "cerGrowthPct": -37.3,
+              "reportedGrowthPct": -36.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 30,
+                  "cerGrowthPct": -29.3
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 23,
+                  "cerGrowthPct": -55.8
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 12,
+                  "cerGrowthPct": 33.3
+                }
+              ]
+            },
+            {
+              "name": "Sarclisa",
+              "therapeuticArea": "Oncology",
+              "netSalesEurM": 136,
+              "cerGrowthPct": 26.4,
+              "reportedGrowthPct": 28.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 61,
+                  "cerGrowthPct": 20.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 41,
+                  "cerGrowthPct": 32.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 34,
+                  "cerGrowthPct": 30.8
+                }
+              ]
+            },
+            {
+              "name": "Jevtana",
+              "therapeuticArea": "Oncology",
+              "netSalesEurM": 75,
+              "cerGrowthPct": 7.4,
+              "reportedGrowthPct": 10.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 59,
+                  "cerGrowthPct": 21.3
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": -50.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 15,
+                  "cerGrowthPct": -21.1
+                }
+              ]
+            },
+            {
+              "name": "Fasturtec",
+              "therapeuticArea": "Oncology",
+              "netSalesEurM": 44,
+              "cerGrowthPct": 2.4,
+              "reportedGrowthPct": 4.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 28,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 12,
+                  "cerGrowthPct": 9.1
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 4,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Lantus",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 450,
+              "cerGrowthPct": 24.4,
+              "reportedGrowthPct": 25.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 196,
+                  "cerGrowthPct": 68.8
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 75,
+                  "cerGrowthPct": -18.5
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 179,
+                  "cerGrowthPct": 17.9
+                }
+              ]
+            },
+            {
+              "name": "Toujeo",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 354,
+              "cerGrowthPct": 10.0,
+              "reportedGrowthPct": 10.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 66,
+                  "cerGrowthPct": 14.3
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 122,
+                  "cerGrowthPct": 2.5
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 166,
+                  "cerGrowthPct": 14.4
+                }
+              ]
+            },
+            {
+              "name": "Plavix",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 244,
+              "cerGrowthPct": 2.5,
+              "reportedGrowthPct": 2.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": -50.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 22,
+                  "cerGrowthPct": -4.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 221,
+                  "cerGrowthPct": 3.8
+                }
+              ]
+            },
+            {
+              "name": "Lovenox",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 238,
+              "cerGrowthPct": -6.5,
+              "reportedGrowthPct": -9.2,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 3,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 134,
+                  "cerGrowthPct": -13.5
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 101,
+                  "cerGrowthPct": 3.8
+                }
+              ]
+            },
+            {
+              "name": "Rezurock",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 131,
+              "cerGrowthPct": 36.6,
+              "reportedGrowthPct": 40.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 113,
+                  "cerGrowthPct": 31.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 9,
+                  "cerGrowthPct": 80.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 9,
+                  "cerGrowthPct": 100.0
+                }
+              ]
+            },
+            {
+              "name": "Praluent",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 130,
+              "cerGrowthPct": 6.6,
+              "reportedGrowthPct": 7.4,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 102,
+                  "cerGrowthPct": 22.9
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 28,
+                  "cerGrowthPct": -28.9
+                }
+              ]
+            },
+            {
+              "name": "Thymoglobulin",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 122,
+              "cerGrowthPct": 2.6,
+              "reportedGrowthPct": 4.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 73,
+                  "cerGrowthPct": -2.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 11,
+                  "cerGrowthPct": 10.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 38,
+                  "cerGrowthPct": 11.8
+                }
+              ]
+            },
+            {
+              "name": "Aprovel",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 110,
+              "cerGrowthPct": 3.8,
+              "reportedGrowthPct": 4.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 18,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 91,
+                  "cerGrowthPct": 3.4
+                }
+              ]
+            },
+            {
+              "name": "Multaq",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 81,
+              "cerGrowthPct": 1.3,
+              "reportedGrowthPct": 3.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 74,
+                  "cerGrowthPct": 1.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 3,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 4,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Soliqua/iGlarLixi",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 70,
+              "cerGrowthPct": 22.4,
+              "reportedGrowthPct": 20.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 24,
+                  "cerGrowthPct": 15.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 13,
+                  "cerGrowthPct": 27.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 33,
+                  "cerGrowthPct": 25.9
+                }
+              ]
+            },
+            {
+              "name": "Tzield",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 11,
+              "cerGrowthPct": 10.0,
+              "reportedGrowthPct": 10.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 11,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": -1,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Mozobil",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 8,
+              "cerGrowthPct": -68.0,
+              "reportedGrowthPct": -68.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": -66.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 3,
+                  "cerGrowthPct": -81.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 4,
+                  "cerGrowthPct": -33.3
+                }
+              ]
+            },
+            {
+              "name": "Others",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 1040,
+              "cerGrowthPct": -8.9,
+              "reportedGrowthPct": -10.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 86,
+                  "cerGrowthPct": -16.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 300,
+                  "cerGrowthPct": -12.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 654,
+                  "cerGrowthPct": -6.3
+                }
+              ]
+            },
+            {
+              "name": "Industrial Sales",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 103,
+              "cerGrowthPct": -35.7,
+              "reportedGrowthPct": -34.4,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 95,
+                  "cerGrowthPct": -40.4
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 8,
+                  "cerGrowthPct": 700.0
+                }
+              ]
+            },
+            {
+              "name": "RSV (Beyfortus)",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 284,
+              "cerGrowthPct": 54.9,
+              "reportedGrowthPct": 56.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 65,
+                  "cerGrowthPct": -44.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 78,
+                  "cerGrowthPct": 1014.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 141,
+                  "cerGrowthPct": 131.1
+                }
+              ]
+            },
+            {
+              "name": "Polio/Pertussis/Hib primary vaccines and boosters",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 668,
+              "cerGrowthPct": 3.8,
+              "reportedGrowthPct": 4.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 171,
+                  "cerGrowthPct": 1.2
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 99,
+                  "cerGrowthPct": -9.2
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 398,
+                  "cerGrowthPct": 8.8
+                }
+              ]
+            },
+            {
+              "name": "Influenza vaccines",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 73,
+              "cerGrowthPct": -1.4,
+              "reportedGrowthPct": null,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 27,
+                  "cerGrowthPct": 420.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 6,
+                  "cerGrowthPct": 500.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 40,
+                  "cerGrowthPct": -40.3
+                }
+              ]
+            },
+            {
+              "name": "Meningitis, Travel and endemic vaccines",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 302,
+              "cerGrowthPct": 3.5,
+              "reportedGrowthPct": 5.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 171,
+                  "cerGrowthPct": 21.2
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 46,
+                  "cerGrowthPct": -4.2
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 85,
+                  "cerGrowthPct": -16.8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Q2-2025",
+          "label": "Q2 2025",
+          "publishedOn": "2025-07-31",
+          "sourceUrl": "https://www.sanofi.com/assets/dotcom/pressreleases/2025/2025-07-31-05-30-00-3124660-en.pdf",
+          "comparativePeriod": "Q2 2024",
+          "company": {
+            "netSalesEurM": 9994,
+            "fxEffectEurM": -384,
+            "cerSalesEurM": 10378,
+            "cerGrowthPct": 10.1,
+            "fxImpactPp": -4.1,
+            "reportedGrowthPct": 6.0
+          },
+          "regions": [
+            {
+              "region": "United States",
+              "netSalesEurM": 4878,
+              "cerGrowthPct": 17.3,
+              "subsetOf": null
+            },
+            {
+              "region": "Europe",
+              "netSalesEurM": 2101,
+              "cerGrowthPct": 3.0,
+              "subsetOf": null
+            },
+            {
+              "region": "Rest of World",
+              "netSalesEurM": 3015,
+              "cerGrowthPct": 4.4,
+              "subsetOf": null
+            },
+            {
+              "region": "China",
+              "netSalesEurM": 687,
+              "cerGrowthPct": 1.8,
+              "subsetOf": "Rest of World"
+            }
+          ],
+          "averageRates": [
+            {
+              "currency": "USD",
+              "comparativeRate": 1.077,
+              "currentRate": 1.134
+            },
+            {
+              "currency": "JPY",
+              "comparativeRate": 167.783,
+              "currentRate": 163.807
+            },
+            {
+              "currency": "CNY",
+              "comparativeRate": 7.813,
+              "currentRate": 8.198
+            },
+            {
+              "currency": "BRL",
+              "comparativeRate": 5.619,
+              "currentRate": 6.425
+            },
+            {
+              "currency": "RUB",
+              "comparativeRate": 97.409,
+              "currentRate": 91.674
+            }
+          ],
+          "products": [
+            {
+              "name": "Dupixent",
+              "therapeuticArea": "Immunology",
+              "netSalesEurM": 3832,
+              "cerGrowthPct": 21.1,
+              "reportedGrowthPct": 16.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 2807,
+                  "cerGrowthPct": 22.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 485,
+                  "cerGrowthPct": 21.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 540,
+                  "cerGrowthPct": 12.9
+                }
+              ]
+            },
+            {
+              "name": "Kevzara",
+              "therapeuticArea": "Immunology",
+              "netSalesEurM": 134,
+              "cerGrowthPct": 35.3,
+              "reportedGrowthPct": 31.4,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 83,
+                  "cerGrowthPct": 46.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 35,
+                  "cerGrowthPct": 16.7
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 16,
+                  "cerGrowthPct": 25.0
+                }
+              ]
+            },
+            {
+              "name": "ALTUVIIIO",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 291,
+              "cerGrowthPct": 91.8,
+              "reportedGrowthPct": 84.2,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 238,
+                  "cerGrowthPct": 74.3
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 53,
+                  "cerGrowthPct": 271.4
+                }
+              ]
+            },
+            {
+              "name": "Fabrazyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 263,
+              "cerGrowthPct": -0.4,
+              "reportedGrowthPct": -3.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 128,
+                  "cerGrowthPct": -0.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 69,
+                  "cerGrowthPct": 4.5
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 66,
+                  "cerGrowthPct": -4.2
+                }
+              ]
+            },
+            {
+              "name": "Nexviazyme/Nexviadyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 192,
+              "cerGrowthPct": 17.3,
+              "reportedGrowthPct": 14.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 96,
+                  "cerGrowthPct": 13.5
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 68,
+                  "cerGrowthPct": 30.8
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 28,
+                  "cerGrowthPct": 3.7
+                }
+              ]
+            },
+            {
+              "name": "Cerezyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 173,
+              "cerGrowthPct": -7.8,
+              "reportedGrowthPct": -10.4,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 44,
+                  "cerGrowthPct": -2.1
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 60,
+                  "cerGrowthPct": -1.6
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 69,
+                  "cerGrowthPct": -15.5
+                }
+              ]
+            },
+            {
+              "name": "Alprolix",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 145,
+              "cerGrowthPct": 7.8,
+              "reportedGrowthPct": 2.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 112,
+                  "cerGrowthPct": 1.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 33,
+                  "cerGrowthPct": 36.0
+                }
+              ]
+            },
+            {
+              "name": "Myozyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 140,
+              "cerGrowthPct": -19.4,
+              "reportedGrowthPct": -22.2,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 43,
+                  "cerGrowthPct": -27.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 48,
+                  "cerGrowthPct": -30.4
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 49,
+                  "cerGrowthPct": 6.1
+                }
+              ]
+            },
+            {
+              "name": "Cerdelga",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 80,
+              "cerGrowthPct": null,
+              "reportedGrowthPct": -2.4,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 43,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 33,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 4,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Aldurazyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 69,
+              "cerGrowthPct": -10.3,
+              "reportedGrowthPct": -11.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 17,
+                  "cerGrowthPct": 5.6
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 22,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 30,
+                  "cerGrowthPct": -23.7
+                }
+              ]
+            },
+            {
+              "name": "Cablivi",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 69,
+              "cerGrowthPct": 29.6,
+              "reportedGrowthPct": 27.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 35,
+                  "cerGrowthPct": 28.6
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 30,
+                  "cerGrowthPct": 45.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 4,
+                  "cerGrowthPct": -16.7
+                }
+              ]
+            },
+            {
+              "name": "Eloctate",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 65,
+              "cerGrowthPct": -35.2,
+              "reportedGrowthPct": -38.1,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 45,
+                  "cerGrowthPct": -27.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 20,
+                  "cerGrowthPct": -47.5
+                }
+              ]
+            },
+            {
+              "name": "Xenpozyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 54,
+              "cerGrowthPct": 48.6,
+              "reportedGrowthPct": 45.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 22,
+                  "cerGrowthPct": 21.1
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 22,
+                  "cerGrowthPct": 83.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 10,
+                  "cerGrowthPct": 66.7
+                }
+              ]
+            },
+            {
+              "name": "Qfitlia",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 1,
+              "cerGrowthPct": null,
+              "reportedGrowthPct": null,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Aubagio",
+              "therapeuticArea": "Neurology",
+              "netSalesEurM": 73,
+              "cerGrowthPct": -29.0,
+              "reportedGrowthPct": -31.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 46,
+                  "cerGrowthPct": -10.9
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 17,
+                  "cerGrowthPct": -60.5
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 10,
+                  "cerGrowthPct": 11.1
+                }
+              ]
+            },
+            {
+              "name": "Sarclisa",
+              "therapeuticArea": "Oncology",
+              "netSalesEurM": 140,
+              "cerGrowthPct": 19.0,
+              "reportedGrowthPct": 15.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 58,
+                  "cerGrowthPct": 19.6
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 42,
+                  "cerGrowthPct": 27.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 40,
+                  "cerGrowthPct": 10.8
+                }
+              ]
+            },
+            {
+              "name": "Jevtana",
+              "therapeuticArea": "Oncology",
+              "netSalesEurM": 66,
+              "cerGrowthPct": -5.6,
+              "reportedGrowthPct": -8.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 49,
+                  "cerGrowthPct": -1.9
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": -50.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 16,
+                  "cerGrowthPct": -11.8
+                }
+              ]
+            },
+            {
+              "name": "Fasturtec",
+              "therapeuticArea": "Oncology",
+              "netSalesEurM": 44,
+              "cerGrowthPct": 4.5,
+              "reportedGrowthPct": null,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 29,
+                  "cerGrowthPct": 3.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 13,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": 33.3
+                }
+              ]
+            },
+            {
+              "name": "Lantus",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 426,
+              "cerGrowthPct": 11.5,
+              "reportedGrowthPct": 6.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 199,
+                  "cerGrowthPct": 32.9
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 74,
+                  "cerGrowthPct": -10.8
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 153,
+                  "cerGrowthPct": 1.9
+                }
+              ]
+            },
+            {
+              "name": "Toujeo",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 338,
+              "cerGrowthPct": 10.5,
+              "reportedGrowthPct": 8.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 60,
+                  "cerGrowthPct": 3.3
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 126,
+                  "cerGrowthPct": 3.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 152,
+                  "cerGrowthPct": 20.8
+                }
+              ]
+            },
+            {
+              "name": "Plavix",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 229,
+              "cerGrowthPct": 1.3,
+              "reportedGrowthPct": -2.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": 100.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 22,
+                  "cerGrowthPct": -4.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 205,
+                  "cerGrowthPct": 1.4
+                }
+              ]
+            },
+            {
+              "name": "Lovenox",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 209,
+              "cerGrowthPct": -15.6,
+              "reportedGrowthPct": -18.4,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 6,
+                  "cerGrowthPct": 100.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 113,
+                  "cerGrowthPct": -24.7
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 90,
+                  "cerGrowthPct": -5.8
+                }
+              ]
+            },
+            {
+              "name": "Praluent",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 137,
+              "cerGrowthPct": 10.3,
+              "reportedGrowthPct": 8.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 107,
+                  "cerGrowthPct": 23.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 30,
+                  "cerGrowthPct": -17.9
+                }
+              ]
+            },
+            {
+              "name": "Rezurock",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 132,
+              "cerGrowthPct": 21.1,
+              "reportedGrowthPct": 15.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 107,
+                  "cerGrowthPct": 7.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 14,
+                  "cerGrowthPct": 100.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 11,
+                  "cerGrowthPct": 300.0
+                }
+              ]
+            },
+            {
+              "name": "Thymoglobulin",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 126,
+              "cerGrowthPct": 2.3,
+              "reportedGrowthPct": -2.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 81,
+                  "cerGrowthPct": 2.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 10,
+                  "cerGrowthPct": 11.1
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 35,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Aprovel",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 102,
+              "cerGrowthPct": -1.9,
+              "reportedGrowthPct": -5.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 17,
+                  "cerGrowthPct": -10.5
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 83,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Multaq",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 79,
+              "cerGrowthPct": -2.4,
+              "reportedGrowthPct": -6.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 71,
+                  "cerGrowthPct": 1.3
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": -33.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 6,
+                  "cerGrowthPct": -33.3
+                }
+              ]
+            },
+            {
+              "name": "Soliqua/iGlarLixi",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 66,
+              "cerGrowthPct": 19.6,
+              "reportedGrowthPct": 17.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 20,
+                  "cerGrowthPct": 16.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 13,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 33,
+                  "cerGrowthPct": 30.8
+                }
+              ]
+            },
+            {
+              "name": "Tzield",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 18,
+              "cerGrowthPct": 63.6,
+              "reportedGrowthPct": 63.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 16,
+                  "cerGrowthPct": 70.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": -100.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Mozobil",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 8,
+              "cerGrowthPct": -57.1,
+              "reportedGrowthPct": -61.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": -50.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": -83.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 5,
+                  "cerGrowthPct": -14.3
+                }
+              ]
+            },
+            {
+              "name": "Others",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 931,
+              "cerGrowthPct": -12.0,
+              "reportedGrowthPct": -15.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 90,
+                  "cerGrowthPct": -16.8
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 284,
+                  "cerGrowthPct": -12.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 557,
+                  "cerGrowthPct": -11.0
+                }
+              ]
+            },
+            {
+              "name": "Industrial Sales",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 148,
+              "cerGrowthPct": 29.1,
+              "reportedGrowthPct": 26.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 146,
+                  "cerGrowthPct": 28.2
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": -100.0
+                }
+              ]
+            },
+            {
+              "name": "RSV (Beyfortus)",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 72,
+              "cerGrowthPct": 322.2,
+              "reportedGrowthPct": 300.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 3,
+                  "cerGrowthPct": 50.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 7,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 62,
+                  "cerGrowthPct": 312.5
+                }
+              ]
+            },
+            {
+              "name": "Polio/Pertussis/Hib primary vaccines and boosters",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 693,
+              "cerGrowthPct": 1.3,
+              "reportedGrowthPct": -2.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 149,
+                  "cerGrowthPct": 6.8
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 124,
+                  "cerGrowthPct": -10.8
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 420,
+                  "cerGrowthPct": 3.3
+                }
+              ]
+            },
+            {
+              "name": "Influenza vaccines",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 141,
+              "cerGrowthPct": 26.1,
+              "reportedGrowthPct": 22.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 27,
+                  "cerGrowthPct": 154.5
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 46,
+                  "cerGrowthPct": 58.6
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 68,
+                  "cerGrowthPct": -5.3
+                }
+              ]
+            },
+            {
+              "name": "Meningitis, Travel and endemic vaccines",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 307,
+              "cerGrowthPct": 7.4,
+              "reportedGrowthPct": 3.4,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 148,
+                  "cerGrowthPct": -4.3
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 50,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 109,
+                  "cerGrowthPct": 34.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Q3-2025",
+          "label": "Q3 2025",
+          "publishedOn": "2025-10-24",
+          "sourceUrl": "https://www.sanofi.com/assets/dotcom/pressreleases/2025/2025-10-24-05-30-00-3172594-en.pdf",
+          "comparativePeriod": "Q3 2024",
+          "company": {
+            "netSalesEurM": 12434,
+            "fxEffectEurM": -578,
+            "cerSalesEurM": 13012,
+            "cerGrowthPct": 7.0,
+            "fxImpactPp": -4.7,
+            "reportedGrowthPct": 2.3
+          },
+          "regions": [
+            {
+              "region": "United States",
+              "netSalesEurM": 6838,
+              "cerGrowthPct": 11.1,
+              "subsetOf": null
+            },
+            {
+              "region": "Europe",
+              "netSalesEurM": 2589,
+              "cerGrowthPct": 2.8,
+              "subsetOf": null
+            },
+            {
+              "region": "Rest of World",
+              "netSalesEurM": 3007,
+              "cerGrowthPct": 1.9,
+              "subsetOf": null
+            },
+            {
+              "region": "China",
+              "netSalesEurM": 689,
+              "cerGrowthPct": 2.7,
+              "subsetOf": "Rest of World"
+            }
+          ],
+          "averageRates": [
+            {
+              "currency": "USD",
+              "comparativeRate": 1.099,
+              "currentRate": 1.168
+            },
+            {
+              "currency": "JPY",
+              "comparativeRate": 163.727,
+              "currentRate": 172.29
+            },
+            {
+              "currency": "CNY",
+              "comparativeRate": 7.876,
+              "currentRate": 8.365
+            },
+            {
+              "currency": "BRL",
+              "comparativeRate": 6.095,
+              "currentRate": 6.366
+            },
+            {
+              "currency": "RUB",
+              "comparativeRate": 98.161,
+              "currentRate": 94.158
+            }
+          ],
+          "products": [
+            {
+              "name": "Dupixent",
+              "therapeuticArea": "Immunology",
+              "netSalesEurM": 4156,
+              "cerGrowthPct": 26.2,
+              "reportedGrowthPct": 19.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 3073,
+                  "cerGrowthPct": 27.9
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 504,
+                  "cerGrowthPct": 20.9
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 579,
+                  "cerGrowthPct": 21.7
+                }
+              ]
+            },
+            {
+              "name": "Kevzara",
+              "therapeuticArea": "Immunology",
+              "netSalesEurM": 131,
+              "cerGrowthPct": 26.6,
+              "reportedGrowthPct": 20.2,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 87,
+                  "cerGrowthPct": 41.5
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 31,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 13,
+                  "cerGrowthPct": 14.3
+                }
+              ]
+            },
+            {
+              "name": "ALTUVIIIO",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 294,
+              "cerGrowthPct": 81.4,
+              "reportedGrowthPct": 70.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 247,
+                  "cerGrowthPct": 64.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 47,
+                  "cerGrowthPct": 308.3
+                }
+              ]
+            },
+            {
+              "name": "Fabrazyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 242,
+              "cerGrowthPct": -0.4,
+              "reportedGrowthPct": -4.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 124,
+                  "cerGrowthPct": 0.8
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 62,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 56,
+                  "cerGrowthPct": -3.3
+                }
+              ]
+            },
+            {
+              "name": "Nexviazyme/Nexviadyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 200,
+              "cerGrowthPct": 27.6,
+              "reportedGrowthPct": 22.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 98,
+                  "cerGrowthPct": 15.6
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 74,
+                  "cerGrowthPct": 57.4
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 28,
+                  "cerGrowthPct": 15.4
+                }
+              ]
+            },
+            {
+              "name": "Cerezyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 161,
+              "cerGrowthPct": 0.6,
+              "reportedGrowthPct": -1.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 44,
+                  "cerGrowthPct": -2.1
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 56,
+                  "cerGrowthPct": 1.8
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 61,
+                  "cerGrowthPct": 1.6
+                }
+              ]
+            },
+            {
+              "name": "Alprolix",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 149,
+              "cerGrowthPct": 7.4,
+              "reportedGrowthPct": 0.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 106,
+                  "cerGrowthPct": 1.8
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 43,
+                  "cerGrowthPct": 23.7
+                }
+              ]
+            },
+            {
+              "name": "Ayvakit",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 137,
+              "cerGrowthPct": null,
+              "reportedGrowthPct": null,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 119,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 16,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Myozyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 122,
+              "cerGrowthPct": -25.0,
+              "reportedGrowthPct": -27.4,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 41,
+                  "cerGrowthPct": -30.2
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 40,
+                  "cerGrowthPct": -33.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 41,
+                  "cerGrowthPct": -6.7
+                }
+              ]
+            },
+            {
+              "name": "Cerdelga",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 86,
+              "cerGrowthPct": 11.1,
+              "reportedGrowthPct": 6.2,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 45,
+                  "cerGrowthPct": 6.5
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 37,
+                  "cerGrowthPct": 19.4
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 4,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Aldurazyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 79,
+              "cerGrowthPct": 22.4,
+              "reportedGrowthPct": 17.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 17,
+                  "cerGrowthPct": -5.6
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 20,
+                  "cerGrowthPct": 11.1
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 42,
+                  "cerGrowthPct": 45.2
+                }
+              ]
+            },
+            {
+              "name": "Eloctate",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 77,
+              "cerGrowthPct": -14.6,
+              "reportedGrowthPct": -19.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 41,
+                  "cerGrowthPct": -21.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 36,
+                  "cerGrowthPct": -5.0
+                }
+              ]
+            },
+            {
+              "name": "Cablivi",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 66,
+              "cerGrowthPct": 9.5,
+              "reportedGrowthPct": 4.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 35,
+                  "cerGrowthPct": 11.8
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 25,
+                  "cerGrowthPct": 8.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 6,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Xenpozyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 57,
+              "cerGrowthPct": 43.9,
+              "reportedGrowthPct": 39.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 23,
+                  "cerGrowthPct": 25.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 22,
+                  "cerGrowthPct": 57.1
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 12,
+                  "cerGrowthPct": 71.4
+                }
+              ]
+            },
+            {
+              "name": "Qfitlia",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 4,
+              "cerGrowthPct": null,
+              "reportedGrowthPct": null,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 4,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Wayrilz",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 1,
+              "cerGrowthPct": null,
+              "reportedGrowthPct": null,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Aubagio",
+              "therapeuticArea": "Neurology",
+              "netSalesEurM": 49,
+              "cerGrowthPct": -44.6,
+              "reportedGrowthPct": -46.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 25,
+                  "cerGrowthPct": -46.9
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 15,
+                  "cerGrowthPct": -46.7
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 9,
+                  "cerGrowthPct": -30.8
+                }
+              ]
+            },
+            {
+              "name": "Sarclisa",
+              "therapeuticArea": "Oncology",
+              "netSalesEurM": 155,
+              "cerGrowthPct": 41.2,
+              "reportedGrowthPct": 36.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 61,
+                  "cerGrowthPct": 41.3
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 46,
+                  "cerGrowthPct": 35.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 48,
+                  "cerGrowthPct": 47.1
+                }
+              ]
+            },
+            {
+              "name": "Jevtana",
+              "therapeuticArea": "Oncology",
+              "netSalesEurM": 62,
+              "cerGrowthPct": -9.6,
+              "reportedGrowthPct": -15.1,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 47,
+                  "cerGrowthPct": -12.5
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 14,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Fasturtec",
+              "therapeuticArea": "Oncology",
+              "netSalesEurM": 43,
+              "cerGrowthPct": -4.3,
+              "reportedGrowthPct": -6.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 26,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 12,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 5,
+                  "cerGrowthPct": -50.0
+                }
+              ]
+            },
+            {
+              "name": "Lantus",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 438,
+              "cerGrowthPct": 6.7,
+              "reportedGrowthPct": 1.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 214,
+                  "cerGrowthPct": 29.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 75,
+                  "cerGrowthPct": -11.8
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 149,
+                  "cerGrowthPct": -7.6
+                }
+              ]
+            },
+            {
+              "name": "Toujeo",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 321,
+              "cerGrowthPct": 9.2,
+              "reportedGrowthPct": 5.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 55,
+                  "cerGrowthPct": 7.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 124,
+                  "cerGrowthPct": 5.1
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 142,
+                  "cerGrowthPct": 13.7
+                }
+              ]
+            },
+            {
+              "name": "Plavix",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 223,
+              "cerGrowthPct": 1.3,
+              "reportedGrowthPct": -3.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 22,
+                  "cerGrowthPct": -4.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 200,
+                  "cerGrowthPct": 2.0
+                }
+              ]
+            },
+            {
+              "name": "Lovenox",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 196,
+              "cerGrowthPct": -14.6,
+              "reportedGrowthPct": -15.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 107,
+                  "cerGrowthPct": -18.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 88,
+                  "cerGrowthPct": -9.9
+                }
+              ]
+            },
+            {
+              "name": "Praluent",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 127,
+              "cerGrowthPct": 1.6,
+              "reportedGrowthPct": 0.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 106,
+                  "cerGrowthPct": 23.5
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 21,
+                  "cerGrowthPct": -43.9
+                }
+              ]
+            },
+            {
+              "name": "Thymoglobulin",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 118,
+              "cerGrowthPct": 3.3,
+              "reportedGrowthPct": -2.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 72,
+                  "cerGrowthPct": 4.1
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 9,
+                  "cerGrowthPct": -10.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 37,
+                  "cerGrowthPct": 5.3
+                }
+              ]
+            },
+            {
+              "name": "Rezurock",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 114,
+              "cerGrowthPct": -6.9,
+              "reportedGrowthPct": -13.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 100,
+                  "cerGrowthPct": -9.3
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": -1,
+                  "cerGrowthPct": -112.5
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 15,
+                  "cerGrowthPct": 220.0
+                }
+              ]
+            },
+            {
+              "name": "Aprovel",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 100,
+              "cerGrowthPct": 6.1,
+              "reportedGrowthPct": 2.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 18,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 81,
+                  "cerGrowthPct": 7.6
+                }
+              ]
+            },
+            {
+              "name": "Multaq",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 78,
+              "cerGrowthPct": 15.3,
+              "reportedGrowthPct": 8.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 71,
+                  "cerGrowthPct": 15.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 5,
+                  "cerGrowthPct": 20.0
+                }
+              ]
+            },
+            {
+              "name": "Soliqua/iGlarLixi",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 62,
+              "cerGrowthPct": 18.2,
+              "reportedGrowthPct": 12.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 19,
+                  "cerGrowthPct": 17.6
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 13,
+                  "cerGrowthPct": 8.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 30,
+                  "cerGrowthPct": 23.1
+                }
+              ]
+            },
+            {
+              "name": "Tzield",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 18,
+              "cerGrowthPct": 26.7,
+              "reportedGrowthPct": 20.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 17,
+                  "cerGrowthPct": 20.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Mozobil",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 10,
+              "cerGrowthPct": -43.8,
+              "reportedGrowthPct": -37.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": -75.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": -71.4
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 7,
+                  "cerGrowthPct": 20.0
+                }
+              ]
+            },
+            {
+              "name": "Others",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 905,
+              "cerGrowthPct": -13.1,
+              "reportedGrowthPct": -15.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 77,
+                  "cerGrowthPct": -27.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 273,
+                  "cerGrowthPct": -9.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 555,
+                  "cerGrowthPct": -12.6
+                }
+              ]
+            },
+            {
+              "name": "Industrial Sales",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 96,
+              "cerGrowthPct": -21.6,
+              "reportedGrowthPct": -23.2,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 95,
+                  "cerGrowthPct": -21.8
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Influenza, COVID-19",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 1525,
+              "cerGrowthPct": -16.8,
+              "reportedGrowthPct": -20.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1038,
+                  "cerGrowthPct": -11.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 356,
+                  "cerGrowthPct": -25.6
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 131,
+                  "cerGrowthPct": -29.4
+                }
+              ]
+            },
+            {
+              "name": "Beyfortus",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 739,
+              "cerGrowthPct": 19.8,
+              "reportedGrowthPct": 14.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 389,
+                  "cerGrowthPct": -21.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 261,
+                  "cerGrowthPct": 166.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 89,
+                  "cerGrowthPct": 526.7
+                }
+              ]
+            },
+            {
+              "name": "Polio/Pertussis/Hib primary vaccines and boosters",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 642,
+              "cerGrowthPct": -12.2,
+              "reportedGrowthPct": -15.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 205,
+                  "cerGrowthPct": -3.1
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 106,
+                  "cerGrowthPct": -20.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 331,
+                  "cerGrowthPct": -14.6
+                }
+              ]
+            },
+            {
+              "name": "Meningitis, travel, and endemic",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 451,
+              "cerGrowthPct": -1.9,
+              "reportedGrowthPct": -6.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 314,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 57,
+                  "cerGrowthPct": 11.8
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 80,
+                  "cerGrowthPct": -15.2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Q1-2026",
+          "label": "Q1 2026",
+          "publishedOn": "2026-04-23",
+          "sourceUrl": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-04-23-05-30-00-3279572_EN.pdf",
+          "comparativePeriod": "Q1 2025",
+          "company": {
+            "netSalesEurM": 10509,
+            "fxEffectEurM": -733,
+            "cerSalesEurM": 11242,
+            "cerGrowthPct": 13.6,
+            "fxImpactPp": -7.4,
+            "reportedGrowthPct": 6.2
+          },
+          "regions": [
+            {
+              "region": "United States",
+              "netSalesEurM": 5289,
+              "cerGrowthPct": 26.2,
+              "subsetOf": null
+            },
+            {
+              "region": "Europe",
+              "netSalesEurM": 2163,
+              "cerGrowthPct": 5.9,
+              "subsetOf": null
+            },
+            {
+              "region": "Rest of World",
+              "netSalesEurM": 3057,
+              "cerGrowthPct": 0.2,
+              "subsetOf": null
+            },
+            {
+              "region": "China",
+              "netSalesEurM": 649,
+              "cerGrowthPct": -2.1,
+              "subsetOf": "Rest of World"
+            }
+          ],
+          "averageRates": [
+            {
+              "currency": "USD",
+              "comparativeRate": 1.053,
+              "currentRate": 1.171
+            },
+            {
+              "currency": "JPY",
+              "comparativeRate": 160.396,
+              "currentRate": 183.59
+            },
+            {
+              "currency": "CNY",
+              "comparativeRate": 7.666,
+              "currentRate": 8.103
+            },
+            {
+              "currency": "BRL",
+              "comparativeRate": 6.16,
+              "currentRate": 6.154
+            },
+            {
+              "currency": "RUB",
+              "comparativeRate": 98.14,
+              "currentRate": 91.873
+            }
+          ],
+          "products": [
+            {
+              "name": "Dupixent",
+              "therapeuticArea": "Immunology",
+              "netSalesEurM": 4170,
+              "cerGrowthPct": 30.8,
+              "reportedGrowthPct": 19.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 3023,
+                  "cerGrowthPct": 35.9
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 563,
+                  "cerGrowthPct": 22.4
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 584,
+                  "cerGrowthPct": 14.9
+                }
+              ]
+            },
+            {
+              "name": "Kevzara",
+              "therapeuticArea": "Immunology",
+              "netSalesEurM": 124,
+              "cerGrowthPct": 20.7,
+              "reportedGrowthPct": 11.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 85,
+                  "cerGrowthPct": 39.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 33,
+                  "cerGrowthPct": 10.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 6,
+                  "cerGrowthPct": -53.8
+                }
+              ]
+            },
+            {
+              "name": "ALTUVIIIO",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 325,
+              "cerGrowthPct": 42.2,
+              "reportedGrowthPct": 29.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 271,
+                  "cerGrowthPct": 37.6
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 54,
+                  "cerGrowthPct": 72.7
+                }
+              ]
+            },
+            {
+              "name": "Fabrazyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 265,
+              "cerGrowthPct": 7.6,
+              "reportedGrowthPct": 1.1,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 124,
+                  "cerGrowthPct": 3.8
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 68,
+                  "cerGrowthPct": 4.6
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 73,
+                  "cerGrowthPct": 18.8
+                }
+              ]
+            },
+            {
+              "name": "Nexviazyme/Nexviadyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 208,
+              "cerGrowthPct": 13.3,
+              "reportedGrowthPct": 6.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 99,
+                  "cerGrowthPct": 11.1
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 77,
+                  "cerGrowthPct": 20.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 32,
+                  "cerGrowthPct": 6.3
+                }
+              ]
+            },
+            {
+              "name": "Cerezyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 186,
+              "cerGrowthPct": 1.1,
+              "reportedGrowthPct": -2.1,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 41,
+                  "cerGrowthPct": -2.1
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 65,
+                  "cerGrowthPct": 8.5
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 80,
+                  "cerGrowthPct": -2.4
+                }
+              ]
+            },
+            {
+              "name": "Ayvakit",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 177,
+              "cerGrowthPct": null,
+              "reportedGrowthPct": null,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 154,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 22,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Alprolix",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 119,
+              "cerGrowthPct": -17.5,
+              "reportedGrowthPct": -25.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 102,
+                  "cerGrowthPct": -10.9
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 17,
+                  "cerGrowthPct": -43.8
+                }
+              ]
+            },
+            {
+              "name": "Myozyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 112,
+              "cerGrowthPct": -13.3,
+              "reportedGrowthPct": -17.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 37,
+                  "cerGrowthPct": -12.5
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 34,
+                  "cerGrowthPct": -32.7
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 41,
+                  "cerGrowthPct": 10.5
+                }
+              ]
+            },
+            {
+              "name": "Cerdelga",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 89,
+              "cerGrowthPct": 9.3,
+              "reportedGrowthPct": 3.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 47,
+                  "cerGrowthPct": 13.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 38,
+                  "cerGrowthPct": 8.6
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 4,
+                  "cerGrowthPct": -20.0
+                }
+              ]
+            },
+            {
+              "name": "Cablivi",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 68,
+              "cerGrowthPct": 9.0,
+              "reportedGrowthPct": 1.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 39,
+                  "cerGrowthPct": 19.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 26,
+                  "cerGrowthPct": 4.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 3,
+                  "cerGrowthPct": -33.3
+                }
+              ]
+            },
+            {
+              "name": "Aldurazyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 67,
+              "cerGrowthPct": -25.5,
+              "reportedGrowthPct": -28.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 18,
+                  "cerGrowthPct": 5.3
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 23,
+                  "cerGrowthPct": 9.5
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 26,
+                  "cerGrowthPct": -50.0
+                }
+              ]
+            },
+            {
+              "name": "Xenpozyme",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 63,
+              "cerGrowthPct": 17.9,
+              "reportedGrowthPct": 12.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 23,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 22,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 18,
+                  "cerGrowthPct": 111.1
+                }
+              ]
+            },
+            {
+              "name": "Eloctate",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 58,
+              "cerGrowthPct": -7.1,
+              "reportedGrowthPct": -17.1,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 37,
+                  "cerGrowthPct": -21.2
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 21,
+                  "cerGrowthPct": 33.3
+                }
+              ]
+            },
+            {
+              "name": "Wayrilz",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 10,
+              "cerGrowthPct": null,
+              "reportedGrowthPct": null,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 10,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Qfitlia",
+              "therapeuticArea": "Rare diseases",
+              "netSalesEurM": 5,
+              "cerGrowthPct": null,
+              "reportedGrowthPct": null,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 5,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Sarclisa",
+              "therapeuticArea": "Oncology",
+              "netSalesEurM": 167,
+              "cerGrowthPct": 30.1,
+              "reportedGrowthPct": 22.8,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 59,
+                  "cerGrowthPct": 8.2
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 52,
+                  "cerGrowthPct": 29.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 56,
+                  "cerGrowthPct": 70.6
+                }
+              ]
+            },
+            {
+              "name": "Jevtana",
+              "therapeuticArea": "Oncology",
+              "netSalesEurM": 66,
+              "cerGrowthPct": -1.3,
+              "reportedGrowthPct": -12.0,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 47,
+                  "cerGrowthPct": -11.9
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 18,
+                  "cerGrowthPct": 40.0
+                }
+              ]
+            },
+            {
+              "name": "Lantus",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 419,
+              "cerGrowthPct": -0.7,
+              "reportedGrowthPct": -6.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 183,
+                  "cerGrowthPct": 4.1
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 73,
+                  "cerGrowthPct": -2.7
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 163,
+                  "cerGrowthPct": -5.0
+                }
+              ]
+            },
+            {
+              "name": "Toujeo",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 375,
+              "cerGrowthPct": 10.5,
+              "reportedGrowthPct": 5.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 71,
+                  "cerGrowthPct": 19.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 134,
+                  "cerGrowthPct": 9.8
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 170,
+                  "cerGrowthPct": 7.2
+                }
+              ]
+            },
+            {
+              "name": "Plavix",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 224,
+              "cerGrowthPct": -3.3,
+              "reportedGrowthPct": -8.2,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": 0.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 20,
+                  "cerGrowthPct": -9.1
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 203,
+                  "cerGrowthPct": -2.7
+                }
+              ]
+            },
+            {
+              "name": "Lovenox",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 184,
+              "cerGrowthPct": -22.3,
+              "reportedGrowthPct": -22.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 107,
+                  "cerGrowthPct": -20.9
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 75,
+                  "cerGrowthPct": -24.8
+                }
+              ]
+            },
+            {
+              "name": "Praluent",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 153,
+              "cerGrowthPct": 17.7,
+              "reportedGrowthPct": 17.7,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 131,
+                  "cerGrowthPct": 28.4
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 22,
+                  "cerGrowthPct": -21.4
+                }
+              ]
+            },
+            {
+              "name": "Rezurock",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 133,
+              "cerGrowthPct": 11.5,
+              "reportedGrowthPct": 1.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 106,
+                  "cerGrowthPct": 3.5
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 7,
+                  "cerGrowthPct": -22.2
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 20,
+                  "cerGrowthPct": 144.4
+                }
+              ]
+            },
+            {
+              "name": "Thymoglobulin",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 120,
+              "cerGrowthPct": 6.6,
+              "reportedGrowthPct": -1.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 70,
+                  "cerGrowthPct": 6.8
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 10,
+                  "cerGrowthPct": -9.1
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 40,
+                  "cerGrowthPct": 10.5
+                }
+              ]
+            },
+            {
+              "name": "Aprovel",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 104,
+              "cerGrowthPct": -0.9,
+              "reportedGrowthPct": -5.5,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 16,
+                  "cerGrowthPct": -11.1
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 87,
+                  "cerGrowthPct": 1.1
+                }
+              ]
+            },
+            {
+              "name": "Multaq",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 80,
+              "cerGrowthPct": 9.9,
+              "reportedGrowthPct": -1.2,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 74,
+                  "cerGrowthPct": 10.8
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": -33.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 4,
+                  "cerGrowthPct": 25.0
+                }
+              ]
+            },
+            {
+              "name": "Soliqua/iGlarLixi",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 79,
+              "cerGrowthPct": 18.6,
+              "reportedGrowthPct": 12.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 24,
+                  "cerGrowthPct": 12.5
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 12,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 43,
+                  "cerGrowthPct": 30.3
+                }
+              ]
+            },
+            {
+              "name": "Apidra",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 70,
+              "cerGrowthPct": 1.4,
+              "reportedGrowthPct": -1.4,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": 0.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 27,
+                  "cerGrowthPct": 3.8
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 41,
+                  "cerGrowthPct": 0.0
+                }
+              ]
+            },
+            {
+              "name": "Synvisc",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 35,
+              "cerGrowthPct": -30.9,
+              "reportedGrowthPct": -36.4,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 21,
+                  "cerGrowthPct": -28.1
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 4,
+                  "cerGrowthPct": -20.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 10,
+                  "cerGrowthPct": -38.9
+                }
+              ]
+            },
+            {
+              "name": "Tzield/Teizeild",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 14,
+              "cerGrowthPct": 36.4,
+              "reportedGrowthPct": 27.3,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 11,
+                  "cerGrowthPct": 18.2
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 2,
+                  "cerGrowthPct": 100.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": -100.0
+                }
+              ]
+            },
+            {
+              "name": "Myqorzo",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 1,
+              "cerGrowthPct": null,
+              "reportedGrowthPct": null,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": null,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                }
+              ]
+            },
+            {
+              "name": "Others",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 865,
+              "cerGrowthPct": -13.7,
+              "reportedGrowthPct": -16.2,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 75,
+                  "cerGrowthPct": -27.0
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 264,
+                  "cerGrowthPct": -14.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 526,
+                  "cerGrowthPct": -10.9
+                }
+              ]
+            },
+            {
+              "name": "Industrial Sales",
+              "therapeuticArea": "Other main medicines",
+              "netSalesEurM": 81,
+              "cerGrowthPct": -16.7,
+              "reportedGrowthPct": -20.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": null
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 79,
+                  "cerGrowthPct": -13.7
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 1,
+                  "cerGrowthPct": -71.4
+                }
+              ]
+            },
+            {
+              "name": "Polio/pertussis/hib primary vaccines and boosters, incl. Heplisav-B",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 664,
+              "cerGrowthPct": 4.2,
+              "reportedGrowthPct": -0.6,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 229,
+                  "cerGrowthPct": 47.4
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 98,
+                  "cerGrowthPct": -1.0
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 337,
+                  "cerGrowthPct": -13.1
+                }
+              ]
+            },
+            {
+              "name": "Beyfortus",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 284,
+              "cerGrowthPct": 2.8,
+              "reportedGrowthPct": null,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 46,
+                  "cerGrowthPct": -21.5
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 80,
+                  "cerGrowthPct": 2.6
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 158,
+                  "cerGrowthPct": 14.2
+                }
+              ]
+            },
+            {
+              "name": "Meningitis, travel, and endemic",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 278,
+              "cerGrowthPct": -2.0,
+              "reportedGrowthPct": -7.9,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 128,
+                  "cerGrowthPct": -17.5
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 60,
+                  "cerGrowthPct": 30.4
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 90,
+                  "cerGrowthPct": 11.8
+                }
+              ]
+            },
+            {
+              "name": "Influenza, COVID-19",
+              "therapeuticArea": "Vaccines",
+              "netSalesEurM": 67,
+              "cerGrowthPct": -4.1,
+              "reportedGrowthPct": -8.2,
+              "byRegion": [
+                {
+                  "region": "United States",
+                  "netSalesEurM": 23,
+                  "cerGrowthPct": -3.7
+                },
+                {
+                  "region": "Europe",
+                  "netSalesEurM": 13,
+                  "cerGrowthPct": 133.3
+                },
+                {
+                  "region": "Rest of World",
+                  "netSalesEurM": 31,
+                  "cerGrowthPct": -25.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
